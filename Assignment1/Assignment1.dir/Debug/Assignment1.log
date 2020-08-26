@@ -1,0 +1,11 @@
+﻿  CharacterDemo.cpp
+  boids.cpp
+E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet/LinearMath/btIDebugDraw.h(173,1): warning C4305: 'argument': truncation from 'double' to 'const btScalar' (compiling source file E:\Urho3D\Assignment 1\Urho3D-Tutorial\CharacterDemo.cpp)
+E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet/LinearMath/btIDebugDraw.h(174,1): warning C4305: 'argument': truncation from 'double' to 'const btScalar' (compiling source file E:\Urho3D\Assignment 1\Urho3D-Tutorial\CharacterDemo.cpp)
+E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet/LinearMath/btIDebugDraw.h(175,1): warning C4305: 'argument': truncation from 'double' to 'const btScalar' (compiling source file E:\Urho3D\Assignment 1\Urho3D-Tutorial\CharacterDemo.cpp)
+E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet/LinearMath/btIDebugDraw.h(173,1): warning C4305: 'argument': truncation from 'double' to 'const btScalar' (compiling source file E:\Urho3D\Assignment 1\Urho3D-Tutorial\boids.cpp)
+E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet/LinearMath/btIDebugDraw.h(174,1): warning C4305: 'argument': truncation from 'double' to 'const btScalar' (compiling source file E:\Urho3D\Assignment 1\Urho3D-Tutorial\boids.cpp)
+E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet/LinearMath/btIDebugDraw.h(175,1): warning C4305: 'argument': truncation from 'double' to 'const btScalar' (compiling source file E:\Urho3D\Assignment 1\Urho3D-Tutorial\boids.cpp)
+E:\Urho3D\Assignment 1\Urho3D-Tutorial\boids.cpp(77,10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Urho3D\Assignment 1\Urho3D-Tutorial\boids.cpp(120,11): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Assignment1.vcxproj -> E:\Urho3D\Assignment 1\Assignment1\bin\Assignment1_d.exe

@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{882093B4-3810-3F1B-A9CF-21500619BB48}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Assignment1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Urho3D\Assignment 1\Assignment1\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Assignment1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Assignment1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Urho3D\Assignment 1\Assignment1\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Assignment1.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Assignment1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Urho3D\Assignment 1\Assignment1\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Assignment1.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Assignment1_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Urho3D\Urho3D-1.7-VS19\include;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Urho3D\Urho3D-1.7-VS19\include;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Urho3D\Urho3D-1.7-VS19\include;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\Software\CMake\bin\cmake.exe -E copy_directory "E:/Urho3D/Assignment 1/Urho3D-Tutorial/bin/CoreData" "E:/Urho3D/Assignment 1/Assignment1/bin/CoreData"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Software\CMake\bin\cmake.exe -E copy_directory "E:/Urho3D/Assignment 1/Urho3D-Tutorial/bin/Data" "E:/Urho3D/Assignment 1/Assignment1/bin/Data"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Software\CMake\bin\cmake.exe -E copy_if_different "D:/Windows Kits/10/Redist/D3D/x64/d3dcompiler_47.dll" "E:/Urho3D/Assignment 1/Assignment1/bin"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\Urho3D\Urho3D-1.7-VS19\lib\Urho3D_d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;winmm.lib;dbghelp.lib;d3dcompiler.lib;d3d9.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;dbghelp.lib;d3dcompiler.lib;d3d9.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Urho3D/Assignment 1/Assignment1/Release/Assignment1.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>E:/Urho3D/Assignment 1/Assignment1/bin/Assignment1.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Urho3D\Urho3D-1.7-VS19\include;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Urho3D\Urho3D-1.7-VS19\include;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Urho3D\Urho3D-1.7-VS19\include;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\Software\CMake\bin\cmake.exe -E copy_directory "E:/Urho3D/Assignment 1/Urho3D-Tutorial/bin/CoreData" "E:/Urho3D/Assignment 1/Assignment1/bin/CoreData"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Software\CMake\bin\cmake.exe -E copy_directory "E:/Urho3D/Assignment 1/Urho3D-Tutorial/bin/Data" "E:/Urho3D/Assignment 1/Assignment1/bin/Data"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Software\CMake\bin\cmake.exe -E copy_if_different "D:/Windows Kits/10/Redist/D3D/x64/d3dcompiler_47.dll" "E:/Urho3D/Assignment 1/Assignment1/bin"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\Urho3D\Urho3D-1.7-VS19\lib\Urho3D_d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;winmm.lib;dbghelp.lib;d3dcompiler.lib;d3d9.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;dbghelp.lib;d3dcompiler.lib;d3d9.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Urho3D/Assignment 1/Assignment1/RelWithDebInfo/Assignment1.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>E:/Urho3D/Assignment 1/Assignment1/bin/Assignment1.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Urho3D\Urho3D-1.7-VS19\include;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;URHO3D_IK;URHO3D_LOGGING;URHO3D_LUA;URHO3D_MINIDUMPS;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_PROFILING;URHO3D_THREADING;URHO3D_URHO2D;URHO3D_WEBP;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Urho3D\Urho3D-1.7-VS19\include;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Urho3D\Urho3D-1.7-VS19\include;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Bullet;E:\Urho3D\Urho3D-1.7-VS19\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\Software\CMake\bin\cmake.exe -E copy_directory "E:/Urho3D/Assignment 1/Urho3D-Tutorial/bin/CoreData" "E:/Urho3D/Assignment 1/Assignment1/bin/CoreData"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Software\CMake\bin\cmake.exe -E copy_directory "E:/Urho3D/Assignment 1/Urho3D-Tutorial/bin/Data" "E:/Urho3D/Assignment 1/Assignment1/bin/Data"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Software\CMake\bin\cmake.exe -E copy_if_different "D:/Windows Kits/10/Redist/D3D/x64/d3dcompiler_47.dll" "E:/Urho3D/Assignment 1/Assignment1/bin"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\Urho3D\Urho3D-1.7-VS19\lib\Urho3D_d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;winmm.lib;dbghelp.lib;d3dcompiler.lib;d3d9.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;dbghelp.lib;d3dcompiler.lib;d3d9.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Urho3D/Assignment 1/Assignment1/Debug/Assignment1_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Urho3D/Assignment 1/Assignment1/bin/Assignment1_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Urho3D/Assignment 1/Urho3D-Tutorial/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe "-SE:/Urho3D/Assignment 1/Urho3D-Tutorial" "-BE:/Urho3D/Assignment 1/Assignment1" --check-stamp-file "E:/Urho3D/Assignment 1/Assignment1/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Software\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeConfigurableFile.in;D:\Software\CMake\share\cmake-3.16\Modules\CMakeDependentOption.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cxx.in;D:\Software\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CheckIncludeFiles.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\3.16.1\CMakeCCompiler.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\3.16.1\CMakeCXXCompiler.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\3.16.1\CMakeRCCompiler.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\3.16.1\CMakeSystem.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\CheckIncludeFiles\HAVE_XINPUT_H.c;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\CheckCompilerToolchain.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\CheckHost.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\FindDirectX.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\FindUrho3D.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\GenerateExportHeader.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\UrhoCommon.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Urho3D/Assignment 1/Urho3D-Tutorial/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe "-SE:/Urho3D/Assignment 1/Urho3D-Tutorial" "-BE:/Urho3D/Assignment 1/Assignment1" --check-stamp-file "E:/Urho3D/Assignment 1/Assignment1/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Software\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeConfigurableFile.in;D:\Software\CMake\share\cmake-3.16\Modules\CMakeDependentOption.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cxx.in;D:\Software\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CheckIncludeFiles.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\3.16.1\CMakeCCompiler.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\3.16.1\CMakeCXXCompiler.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\3.16.1\CMakeRCCompiler.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\3.16.1\CMakeSystem.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\CheckIncludeFiles\HAVE_XINPUT_H.c;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\CheckCompilerToolchain.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\CheckHost.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\FindDirectX.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\FindUrho3D.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\GenerateExportHeader.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\UrhoCommon.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Urho3D/Assignment 1/Urho3D-Tutorial/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Software\CMake\bin\cmake.exe "-SE:/Urho3D/Assignment 1/Urho3D-Tutorial" "-BE:/Urho3D/Assignment 1/Assignment1" --check-stamp-file "E:/Urho3D/Assignment 1/Assignment1/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Software\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeConfigurableFile.in;D:\Software\CMake\share\cmake-3.16\Modules\CMakeDependentOption.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CheckCXXCompilerFlag.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CheckCXXSourceCompiles.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cxx.in;D:\Software\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;D:\Software\CMake\share\cmake-3.16\Modules\CheckIncludeFiles.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\Software\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\3.16.1\CMakeCCompiler.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\3.16.1\CMakeCXXCompiler.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\3.16.1\CMakeRCCompiler.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\3.16.1\CMakeSystem.cmake;E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\CheckIncludeFiles\HAVE_XINPUT_H.c;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\CheckCompilerToolchain.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\CheckHost.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\FindDirectX.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\FindUrho3D.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\GenerateExportHeader.cmake;E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMake\Modules\UrhoCommon.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Urho3D\Assignment 1\Assignment1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Urho3D-Tutorial\Missile.cpp" />
+    <ClCompile Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\Character.cpp" />
+    <ClCompile Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\CharacterDemo.cpp" />
+    <ClCompile Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\Touch.cpp" />
+    <ClCompile Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\boids.cpp" />
+    <ClInclude Include="..\Urho3D-Tutorial\Missile.h" />
+    <ClInclude Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\Character.h" />
+    <ClInclude Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\CharacterDemo.h" />
+    <ClInclude Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\Sample.h" />
+    <ClInclude Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\Touch.h" />
+    <ClInclude Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\boids.h" />
+    <None Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\bin\CoreData" />
+    <None Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\bin\Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Urho3D\Assignment 1\Assignment1\ZERO_CHECK.vcxproj">
+      <Project>{CEF717FB-C528-367F-B927-95519A1BFE0E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\CharacterDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\Touch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\boids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Urho3D-Tutorial\Missile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\CharacterDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\Sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\Touch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\boids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Urho3D-Tutorial\Missile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\bin\CoreData">
+      <Filter>Resource Dirs</Filter>
+    </None>
+    <None Include="E:\Urho3D\Assignment 1\Urho3D-Tutorial\bin\Data">
+      <Filter>Resource Dirs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AB12899E-17EE-36C5-B199-CE1618C2C79A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Dirs">
+      <UniqueIdentifier>{2EF43A0B-51C4-3623-BBE6-889D7110C424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{761B9018-2764-35FC-A446-5F5C68836B95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
